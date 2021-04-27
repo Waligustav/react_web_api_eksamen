@@ -36,6 +36,7 @@ Inloggning till applikationen sker via Google. Alla google-konton har möjlighet
   * [Struktur](#Struktur)
   * [Krav](#Krav)
 * [Inspiration och hjälp](#inspiration-och-hjälp)
+* [Tillkortakommanden](#tillkortakommanden)
 
 
 ## Funktioner
@@ -101,6 +102,10 @@ Optionally, users can have description and picture
 4. Jag har tolkat detta som att användare ska kunna svara på meddelanden i dialogboxen (meddelande från avsändare "A"'s tab ska dyka upp i användare "B"'s tab) (utfört)
 
 Jag har även implementerat Google-authenticator, cors och websockets
+
+## Tillkortakommanden/svagheter
+* I chatten så lagras inte meddelanden ifall användaren går in/ut ur applikationen
+* Jag lyckades dessvärre ej att lagra system-datan som en variabel på express servern
 
 ## Inspiration och hjälp
 
