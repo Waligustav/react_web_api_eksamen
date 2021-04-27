@@ -4,7 +4,7 @@ Inloggning till applikationen sker via Google. Alla google-konton har möjlighet
 
 ### Körs på: `http://localhost:3000` och `http://localhost:1234` med cors
 
-#### CLI kommandon
+### CLI kommandon
 
 ### Följande kommandon är körbara via terminalen:
 * `npm start` - Startar server och klient gemensamt
