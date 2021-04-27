@@ -89,6 +89,7 @@ Optionally, users can have description and picture
 3. Users should be able to see messages where they are a recipient or sender
 4. Users should be able to respond to messages
 
+### Mina tolkningar utav kraven
 1. Jag har tolkat detta som att en användare måste vara inloggad för att kunna registrera nya "dummy profiles" med för och efternamn samn epost. (utfört)
 2. Jag har tolkat detta som att användare ska kunna skriva meddelanden i exempelvis en chat, meddelandet visas sedan i en eller flera browser-tabs (utfört)
 3. Jag har tolkat detta som att användare ska kunna se vem som som har sänt meddelandet med användarnamn i dialogboxen. (utfört)
