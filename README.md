@@ -43,7 +43,7 @@ Inloggning till applikationen sker via Google. Alla google-konton har möjlighet
 
 Detta är en React-applikation. När applikationen startar så möts användaren utav ett inloggningsfönster. Användaren får först tillgång till applikationen efter att ha verifierat en inloggning via ett Google-konto.
 
-< Bild här >
+![application preview](src/client/assets/images/app.png)
 
 "Current user" 
 * Användaren har här möjlighet att se vilket Google-konto som just nu är påloggat i applikationen.
@@ -61,7 +61,7 @@ Detta är en React-applikation. När applikationen startar så möts användaren
 ### Tester
 
 Samtliga tester körs med jest
-< Bild här>
+![test result](src/client/assets/images/test.png)
 Det var väldigt komplicerat men samtidigt lärorikt att utföra tester. Jag hade som mål att uppnå högre test-täckning, men jag lyckades dessvärre inte uppnå högre täckning utan att det resulterade i att delar utav applikationen slutade att fungera.
 Min test-täckning: 47%
 
