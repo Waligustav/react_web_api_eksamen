@@ -46,14 +46,17 @@ Detta är en React-applikation. När applikationen startar så möts användaren
 ![application preview](src/client/assets/images/app.png)
 
 "Current user"
-* Användaren har här möjlighet att se vilket Google-konto som just nu är påloggat i applikationen.
+Användaren har här möjlighet att se vilket Google-konto som just nu är påloggat i applikationen.
+
 "Show profiles"
-* Här kan användaren se de profiler som finns tillgängliga på API-et.
-* Profilernas användarinformation kan redigeras genom att klicka på det tillhörande namnet.
+Här kan användaren se de profiler som finns tillgängliga på API-et.
+Profilernas användarinformation kan redigeras genom att klicka på det tillhörande namnet.
+
 "Create profile" 
-*  Här har användaren möjlighet att själv upprätta låtsasprofiler med förnamn, efternamn och epost-address. Dessa profiler blir sedan synliga i profil-översikten "Show profiles".
+Här har användaren möjlighet att själv upprätta låtsasprofiler med förnamn, efternamn och epost-address. Dessa profiler blir sedan synliga i profil-översikten "Show profiles".
+
 "Chat"
-* Detta är en chat där användaren kan registrera sig med ett valfritt användarnamn. Användaren kan här till exempel chatta med sig själv från port:3000 till port:1234 i olika browser-tabs, för att känna sig mindre ensam. En fin åtgärd vid en eventuell corona-isolation.
+Detta är en chat där användaren kan registrera sig med ett valfritt användarnamn. Användaren kan här till exempel chatta med sig själv från port:3000 till port:1234 i olika browser-tabs, för att känna sig mindre ensam. En fin åtgärd vid en eventuell corona-isolation.
 
 ## Information
 
@@ -78,6 +81,7 @@ Filstruktur: Tester ligger i ``__tests__`. De filer som användaren kan se på w
 
 
 ### Krav
+
 1. A logged in use should be able to register more users in the system
 Users should have properties first name, last name and email address
 Optionally, users can have description and picture
@@ -85,10 +89,10 @@ Optionally, users can have description and picture
 3. Users should be able to see messages where they are a recipient or sender
 4. Users should be able to respond to messages
 
-(1): Jag har tolkat detta som att en användare måste vara inloggad för att kunna registrera nya "dummy profiles" med för och efternamn samn epost. (utfört)
-(2): Jag har tolkat detta som att användare ska kunna skriva meddelanden i exempelvis en chat, meddelandet visas sedan i en eller flera browser-tabs (utfört)
-(3): Jag har tolkat detta som att användare ska kunna se vem som som har sänt meddelandet med användarnamn i dialogboxen. (utfört)
-(4): Jag har tolkat detta som att användare ska kunna svara på meddelanden i dialogboxen (meddelande från avsändare "A"'s tab ska dyka upp i användare "B"'s tab) (utfört)
+1: Jag har tolkat detta som att en användare måste vara inloggad för att kunna registrera nya "dummy profiles" med för och efternamn samn epost. (utfört)
+2: Jag har tolkat detta som att användare ska kunna skriva meddelanden i exempelvis en chat, meddelandet visas sedan i en eller flera browser-tabs (utfört)
+3: Jag har tolkat detta som att användare ska kunna se vem som som har sänt meddelandet med användarnamn i dialogboxen. (utfört)
+4: Jag har tolkat detta som att användare ska kunna svara på meddelanden i dialogboxen (meddelande från avsändare "A"'s tab ska dyka upp i användare "B"'s tab) (utfört)
 
 Jag har även implementerat Google-authenticator, cors och websockets
 
