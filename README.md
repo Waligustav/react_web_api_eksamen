@@ -75,6 +75,7 @@ Min test-täckning: 47%
 
 * Testerna körs utan problem, men jag får följande felmeddelande på grund utav CreateProfile.test.jsx: "console.error
       Warning: An update to CreateProfile inside a test was not wrapped in act(...)."
+
 Detta felmeddelande har diskuterats bland medstudenter på Discord men vi har ej kommit fram till en pålitlig lösning, men jag räknar med att sensor har överseende då tästtäckning ändå visar ett korrekt resultat.
 
 
