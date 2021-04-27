@@ -99,5 +99,5 @@ Jag har även implementerat Google-authenticator, cors och websockets
 
 ## Inspiration och hjälp
 
-* Jag har utgått ifrån det som lärts ut i föreläsningarna, därmed är många delar utav koden väldigt lik den som presenterats av föreläsaren. Jag har inte kopiperat någonting, men några funktioner (exempelvis UseLoading i UseLoading.jsx) är helt lik den som visas i föreläsningen.
+* Jag har utgått ifrån det som lärts ut i föreläsningarna, därmed är många delar utav koden väldigt lik den som presenterats av föreläsaren. Jag har inte kopierat någonting, men några funktioner (exempelvis UseLoading i UseLoading.jsx) är helt lik den som visas i föreläsningen.
 * Jag har kodat websockets med hjälp utav föreläsning #12 "Websockets" och implementerat detta för att få till nämnt tema, därmed är koden väldigt lik den som presenteras i föreläsningen.
