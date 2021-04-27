@@ -45,14 +45,14 @@ Detta är en React-applikation. När applikationen startar så möts användaren
 
 ![application preview](src/client/assets/images/app.png)
 
-"Current user" 
+"Current user"
 * Användaren har här möjlighet att se vilket Google-konto som just nu är påloggat i applikationen.
-"Show profiles" 
+"Show profiles"
 * Här kan användaren se de profiler som finns tillgängliga på API-et.
 * Profilernas användarinformation kan redigeras genom att klicka på det tillhörande namnet.
 "Create profile" 
-* Här har användaren möjlighet att själv upprätta låtsasprofiler med förnamn, efternamn och epost-address. Dessa profiler blir sedan synliga i profil-översikten "Show profiles".
-"Chat" 
+*  Här har användaren möjlighet att själv upprätta låtsasprofiler med förnamn, efternamn och epost-address. Dessa profiler blir sedan synliga i profil-översikten "Show profiles".
+"Chat"
 * Detta är en chat där användaren kan registrera sig med ett valfritt användarnamn. Användaren kan här till exempel chatta med sig själv från port:3000 till port:1234 i olika browser-tabs, för att känna sig mindre ensam. En fin åtgärd vid en eventuell corona-isolation.
 
 ## Information
@@ -62,6 +62,7 @@ Detta är en React-applikation. När applikationen startar så möts användaren
 
 Samtliga tester körs med jest
 ![test result](src/client/assets/images/test.png)
+
 Det var väldigt komplicerat men samtidigt lärorikt att utföra tester. Jag hade som mål att uppnå högre test-täckning, men jag lyckades dessvärre inte uppnå högre täckning utan att det resulterade i att delar utav applikationen slutade att fungera.
 Min test-täckning: 47%
 
