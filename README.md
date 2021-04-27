@@ -89,7 +89,7 @@ Optionally, users can have description and picture
 4. Users should be able to respond to messages
 
 ### Mina tolkningar utav kraven
-1. Jag har tolkat detta som att en användare måste vara inloggad för att kunna registrera nya "dummy profiles" med för och efternamn samn epost. (utfört)
+1. Jag har tolkat detta som att en användare måste vara inloggad för att kunna registrera nya "dummy profiles" med för och efternamn samt epost. (utfört)
 2. Jag har tolkat detta som att användare ska kunna skriva meddelanden i exempelvis en chat, meddelandet visas sedan i en eller flera browser-tabs (utfört)
 3. Jag har tolkat detta som att användare ska kunna se vem som som har sänt meddelandet med användarnamn i dialogboxen. (utfört)
 4. Jag har tolkat detta som att användare ska kunna svara på meddelanden i dialogboxen (meddelande från avsändare "A"'s tab ska dyka upp i användare "B"'s tab) (utfört)
