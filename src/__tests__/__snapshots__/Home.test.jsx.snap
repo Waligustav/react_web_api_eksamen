@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display homepage shows homepage 1`] = `"<div class=\\"mainContainer\\"><h1>Overview</h1><li><a href=\\"/profile\\">Current user</a></li><h3>-- Profiles section --</h3><li><a href=\\"/users\\">Show profiles</a></li><li><a href=\\"/create\\">Create profile</a></li><h3>-- Chat section --</h3><li><a href=\\"/chat\\">Chat</a></li></div>"`;

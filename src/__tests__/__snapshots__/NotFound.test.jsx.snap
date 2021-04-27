@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows 'not found' view dom displays 'not found' view 1`] = `"<div><p>Error: Page not found</p></div>"`;

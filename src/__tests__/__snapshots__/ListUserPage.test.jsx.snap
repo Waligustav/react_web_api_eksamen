@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user list page Shows error view 1`] = `"<div class=\\"mainContainerLogin\\"><h1>An error has occurred</h1><div>Error: Error: Cannot load the desired page</div></div>"`;
+
+exports[`user list page show users on dom 1`] = `"<div class=\\"mainContainer\\"><div><h1>List of profiles</h1><h3>Click to edit a user</h3></div><li><a href=\\"/users/1/edit\\">Wagyu Beefsson</a></li></div>"`;

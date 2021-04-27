@@ -1,0 +1,18 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\Walis Lenovo\Documents\Studier_var_2021\web_API\web_ap_oving_12\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+/.idea/
+/.parcel-cache/
+/dist/
+/node_modules/
+/.env
+coverage/
+.cache
+.parcel-cache
+.git

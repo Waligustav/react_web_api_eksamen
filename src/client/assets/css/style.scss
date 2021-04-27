@@ -1,0 +1,89 @@
+body {
+    background: #24a19c;
+    margin: 0;
+    font-family: "roboto", monospace;
+    color: #ff5f40;
+}
+
+.chatContainer {
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 800px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background: #24a19c;
+}
+
+header {
+    background: #ffc7c7;
+}
+
+footer form {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+footer form > input {
+    flex: 1;
+}
+
+.chatLog {
+    background: #6ebfb5;
+    overflow-y: scroll;
+}
+
+.mainContainer {
+    text-align: center;
+    margin: 0 auto;
+    background: #ffc7c7;
+    width: 800px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 6px;
+    opacity: 80%;
+}
+
+.mainContainerLogin {
+    text-align: center;
+    margin: 0 auto;
+    background: #ffc7c7;
+    width: 800px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 6px;
+    opacity: 80%;
+}
+
+.mainProfilePage {
+    text-align: center;
+    margin: 0 auto;
+    background: #ffc7c7;
+    width: 800px;
+    height: 230px;
+    border: 3px solid black;
+    border-radius: 6px;
+    opacity: 80%;
+}
+
+.mainImageContainer{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+#mainNav {
+    text-align: center;
+    margin: 0 auto;
+    background: #ffc7c7;
+    width: 200px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 6px;
+    opacity: 80%
+}

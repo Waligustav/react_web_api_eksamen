@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing loading view Displays loading view 1`] = `"<div class=\\"mainContainerLogin\\"><h1>Login with Google</h1><button>Login</button></div>"`;
+
+exports[`loading view show loading view on dom 1`] = `"<div class=\\"mainContainerLogin\\"><h1>Login with Google</h1><button>Login</button></div>"`;
