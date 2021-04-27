@@ -73,6 +73,11 @@ Min test-täckning: 47%
 
 * När applikationen körs på port:1234, och jag klickar på "create a profile" eller "chat" så får jag ibland följande felmeddelande: "react_devtools_backend.js:2557 Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function."
 
+* Testerna körs utan problem, men jag får följande felmeddelande på grund utav CreateProfile.test.jsx: "console.error
+      Warning: An update to CreateProfile inside a test was not wrapped in act(...)."
+Detta felmeddelande har diskuterats bland medstudenter på Discord men vi har ej kommit fram till en pålitlig lösning, men jag räknar med att sensor har överseende då tästtäckning ändå visar ett korrekt resultat.
+
+
 
 ### Struktur
 
