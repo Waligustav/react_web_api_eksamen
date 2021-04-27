@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams } from "react-router";
+import {useHistory, useParams} from "react-router";
 import { LoadingView } from "./Views/LoadingView";
 import { InputField } from "./Components/InputField";
 import { useLoading } from "./Lib/useLoading";
@@ -40,6 +40,7 @@ function EditUserForm({ user, onSubmit }) {
 
 export function EditUserPage({ userApi }) {
   const { id } = useParams();
+  const history = useHistory();
 
   const { data: user, loading, error, reload } = useLoading(
     async () => await userApi.getUser(id),
@@ -49,6 +50,7 @@ export function EditUserPage({ userApi }) {
   async function handleSubmit(e, { firstName, lastName, email }) {
     e.preventDefault();
     await userApi.updateUser(id, { firstName, lastName, email });
+    history.push("/home");
   }
 
   if (error) {
